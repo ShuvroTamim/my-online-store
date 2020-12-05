@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 02, 2020 at 10:41 AM
+-- Generation Time: Dec 05, 2020 at 04:51 AM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.10
 
@@ -60,7 +60,8 @@ CREATE TABLE `categories` (
 INSERT INTO `categories` (`id`, `name`, `created_at`, `updated_at`) VALUES
 (1, 'Pants', '2020-12-01 18:43:46', '2020-12-01 18:43:46'),
 (2, 'Shirts', '2020-12-01 20:12:55', '2020-12-01 20:12:55'),
-(3, 'T-Shirt', '2020-12-01 20:13:33', '2020-12-01 20:13:33');
+(3, 'T-Shirt', '2020-12-01 20:13:33', '2020-12-01 20:13:33'),
+(4, 'Payjama', '2020-12-04 19:24:52', '2020-12-04 19:24:52');
 
 -- --------------------------------------------------------
 
@@ -151,8 +152,9 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `name`, `price`, `picture`, `description`, `category_id`, `created_at`, `updated_at`) VALUES
-(1, 'T-Shirt', 350, '../uploads/OIP.jpg', 'This t-shirt is made of cotton.', 3, '2020-12-01 19:36:56', '2020-12-01 19:36:56'),
-(2, 'Pants', 1250, '../uploads/denim.jpg', 'This Denim is very good.', 1, '2020-12-02 09:10:11', '2020-12-02 09:10:11');
+(1, 'T-Shirt', 350, 'uploads/OIP.jpg', 'This t-shirt is made of cotton.', 3, '2020-12-01 19:36:56', '2020-12-01 19:36:56'),
+(2, 'Pants', 1250, 'uploads/denim.jpg', 'This Denim is very good.', 1, '2020-12-02 09:10:11', '2020-12-02 09:10:11'),
+(4, 'test', 1234, 'uploads/Tamim Signature.jpg', 'frgrgrhtthsrg', 1, '2020-12-04 19:23:40', '2020-12-04 19:23:40');
 
 --
 -- Indexes for dumped tables
@@ -214,7 +216,7 @@ ALTER TABLE `admins`
 -- AUTO_INCREMENT for table `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `contact`
@@ -244,7 +246,7 @@ ALTER TABLE `order_details`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

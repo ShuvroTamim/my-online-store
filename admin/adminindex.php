@@ -27,6 +27,16 @@
 
     <!-- Main content -->
     <section class="content">
+      <div class="col-sm-9">
+        <a href="products.php">
+          <button class="btn btn-success">Add Products</button>
+        </a><hr>
+      </div>
+      <div class="col-sm-9">
+        <a href="categories.php">
+          <button class="btn btn-success">Add Categories</button>
+        </a><hr>
+      </div>
       
     </section>
     <!-- /.content -->

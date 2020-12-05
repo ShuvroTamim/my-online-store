@@ -37,7 +37,7 @@
                 <h3>Name: <?php echo $final['name']?></h3><hr>
                 <h3>Price: <?php echo $final['price']?></h3><hr>
                 <h4><b>Description:</b> <?php echo $final['description']?></h4><hr>
-                <img src="<?php echo $final['picture']?>" alt="No File" style="width:150px; height:150px;">
+                <img src="../<?php echo $final['picture']?>" alt="No File" style="width:150px; height:150px;">
             </div>
             <div class="col-sm-4">
                 

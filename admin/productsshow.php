@@ -32,13 +32,17 @@
     <section class="content">
         <div class="row">
             <div class="col-sm-9">
+                <h5><b>New Product? </b><a href="products.php" class="btn btn-success">Add here</a></h5>
                 <?php
                     while ($final = $results->fetch_assoc()) { ?>
                         <a href="proshow.php?pro_id=<?php echo $final['id']?>">
                             <h3><?php echo $final['id']?> : <?php echo $final['name']?></h3>
                         </a>
                         <a href="proupdate.php?up_id=<?php echo $final['id']?>">
-                            <button class='btn btn-primary'>Update</button><hr>
+                            <button class='btn btn-primary'>Update</button>
+                        </a>
+                        <a href="prodelete.php?del_id=<?php echo $final['id']?>">
+                            <button class='btn btn-danger'>Delete</button><hr>
                         </a>
                 <?php } ?>
             </div>
