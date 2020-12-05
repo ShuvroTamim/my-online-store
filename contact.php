@@ -12,10 +12,10 @@
 
 
 	<!-- Title page -->
-	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/bg-01.jpg');">
-		<h2 class="ltext-105 cl0 txt-center">
+	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/contact1.jpg');">
+		<!-- <h2 class="ltext-105 cl0 txt-center">
 			Contact
-		</h2>
+		</h2> -->
 	</section>	
 
 
@@ -72,7 +72,7 @@
 							</span>
 
 							<p class="stext-115 cl1 size-213 p-t-18">
-								+1 800 1236879
+								+880 1234568790
 							</p>
 						</div>
 					</div>
